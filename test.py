@@ -1,2 +1,2 @@
-print("regreg")
-print("hii")
+import pyfiglet
+print(pyfiglet.figlet_format("iTs WORK"))
