@@ -1,5 +1,5 @@
 #!/usr/bin/
-echo root | passwd;echo root | passwd liveuser
+echo "root:root" | sudo chpasswd;echo "liveuser:root" | chpasswd
 echo y | sudo pacman -Syy
 echo y | sudo pacman -S flameshot terminator gimp krita
 wget https://arch.alerque.com/x86_64/google-chrome-94.0.4606.71-1-x86_64.pkg.tar.zst
