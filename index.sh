@@ -8,3 +8,5 @@ wget https://arch.alerque.com/x86_64/font-manager-0.8.7-2-x86_64.pkg.tar.zst
 echo y | sudo pacman -U font-manager-0.8.7-2-x86_64.pkg.tar.zst
 wget https://arch.alerque.com/x86_64/yay-11.0.1-1-x86_64.pkg.tar.zst
 echo y | sudo pacman -U yay-11.0.1-1-x86_64.pkg.tar.zst
+wget https://aur.andontie.net/x86_64/visual-studio-code-bin-1.62.3-1-x86_64.pkg.tar.zst
+echo y | sudo pacman -U visual-studio-code-bin-1.62.3-1-x86_64.pkg.tar.zst
